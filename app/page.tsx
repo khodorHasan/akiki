@@ -4,6 +4,7 @@ import { notFound } from "next/navigation";
 // Importing your section components (adjust paths as needed)
 import HeroSection from "@/components/HeroSection";
 import CategorySection from "@/components/CategorySection";
+import BestSellers from "@/components/BestSellers";
 // import Sections from "@/components/Sections";
 // import Features from "@/components/Features";
 // import Testimonial from "@/components/Testimonial";
@@ -36,6 +37,7 @@ export default async function StorePage() {
     <div className="flex flex-col gap-12 md:gap-16 relative w-full">
       <HeroSection />
       <CategorySection />
+      <BestSellers />
       {/* <section className="w-full rounded-2xl overflow-hidden bg-white shadow-sm border border-zinc-100">
       </section>
       <Suspense
