@@ -13,6 +13,8 @@ interface SearchResult {
 }
 
 interface NavbarProps {
+  storeName?: string;
+  logoUrl?: string;
   promoText?: string | null;
   isMini?: boolean;
 }
@@ -27,6 +29,8 @@ const BRANDS = [
 ];
 
 export default function Navbar({
+  storeName = "",
+  logoUrl = "",
   promoText = "",
   isMini = false,
 }: NavbarProps) {
