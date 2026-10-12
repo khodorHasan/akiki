@@ -45,14 +45,14 @@ export default function BottomNavbar() {
               <div
                 className={`transition-all duration-200 relative ${
                   active
-                    ? "text-blue-600 scale-110"
+                    ? "text-[#C8A97E] scale-110"
                     : "text-zinc-500 group-hover:text-zinc-900"
                 }`}
               >
                 <Icon size={22} strokeWidth={active ? 2 : 1.5} />
 
                 {/* {item.isCart && cartCount > 0 && (
-                  <span className="absolute -top-1.5 -right-2 min-w-[16px] h-[16px] flex items-center justify-center rounded-full bg-blue-600 text-white text-[9px] font-bold px-1 ring-2 ring-white">
+                  <span className="absolute -top-1.5 -right-2 min-w-[16px] h-[16px] flex items-center justify-center rounded-full bg-[#C8A97E]text-white text-[9px] font-bold px-1 ring-2 ring-white">
                     {cartCount > 9 ? "9+" : cartCount}
                   </span>
                 )} */}
@@ -60,7 +60,7 @@ export default function BottomNavbar() {
               <span
                 className={`text-[10px] transition-colors duration-200 ${
                   active
-                    ? "text-blue-600 font-semibold"
+                    ? "text-[#C8A97E] font-semibold"
                     : "text-zinc-500 font-medium"
                 }`}
               >
